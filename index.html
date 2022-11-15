@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>"hellooooo!!1!!!!"</title>
+    <title>hellooooo!!1!!!! :3333</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS" rel="stylesheet"
         type="text/css" />
@@ -21,9 +21,12 @@
             font-family: "Comic Sans MS";
             padding: 0;
             margin: 0;
-            background: #e5e5e5;
             flex-direction: column;
             align-items: center;
+            text-align: center;
+            color: #fff;
+            background-image: url(http://cdn.lowgif.com/full/52f9f089165dcf63-tag-for-cute-pink-and-black-backgrounds-lemat-works-produced-by.gif);
+            background-attachment: fixed;
         }
 
         input {
@@ -38,10 +41,28 @@
             text-align: center;
         }
 
+        #animated {
+            padding: 25vh;
+            margin: 0;
+        }
+
         h1 {
-            margin: 25vh;
-            letter-spacing: 1vw;
-            font-size: 5rem;
+            font-size: 3.5rem;
+            margin: 1rem;
+        }
+
+        .rainbow {
+            animation-name: rainbow;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        .bi {
+            animation-name: bisexual;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
         }
 
         .wavy {
@@ -52,6 +73,8 @@
             position: relative;
             top: 0;
             left: 0;
+            letter-spacing: 1vw;
+            font-size: 5rem;
         }
 
         @keyframes wavy {
@@ -67,6 +90,58 @@
 
             100% {
                 top: -25vh;
+                color: #ff81ff;
+            }
+        }
+
+        @keyframes rainbow {
+            0% {
+                color: red;
+            }
+
+            12.5% {
+                color: orange;
+            }
+
+            25% {
+                color: yellow;
+            }
+
+            37.5% {
+                color: lime;
+            }
+
+            50% {
+                color: blue;
+            }
+
+            62.5% {
+                color: magenta;
+            }
+
+            75% {
+                color: yellowgreen;
+            }
+
+            87.5% {
+                color: violet;
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        @keyframes bisexual {
+            0% {
+                color: #ff81ff;
+            }
+
+            50% {
+                color: #5151fd;
+            }
+
+            100% {
                 color: #ff81ff;
             }
         }
@@ -108,6 +183,13 @@
 <body>
     <h1 id="animated"></h1>
     <input type="text" id="textField" value="hellooooo!!1!!!!wip" />
+    <h1 class="bi">H1 AM I0N!!</h1>
+    <h2 class="rainbow">WEB DESIGN IS MY PASSION!!</h2>
+    <div style="display: flex;">
+        <img src="https://media.tenor.com/wLTK-fVE75UAAAAC/dancingbaby.gif" alt="THE DANCING BABY">
+        <img src="https://media.tenor.com/wLTK-fVE75UAAAAC/dancingbaby.gif" alt="THE DANCING BABY">
+        <img src="https://media.tenor.com/wLTK-fVE75UAAAAC/dancingbaby.gif" alt="I AM SLIGHTLY BISEXUAL">
+    </div>
 </body>
 
 </html>
